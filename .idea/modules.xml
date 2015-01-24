@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Android App.iml" filepath="$PROJECT_DIR$/Android App.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TheNewBostonAvS/TheNewBostonAvS.iml" filepath="$PROJECT_DIR$/TheNewBostonAvS/TheNewBostonAvS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android-development.iml" filepath="$PROJECT_DIR$/android-development.iml" />
+      <module fileurl="file://$PROJECT_DIR$/appcompat_v7/appcompat_v7.iml" filepath="$PROJECT_DIR$/appcompat_v7/appcompat_v7.iml" />
+    </modules>
+  </component>
+</project>
+

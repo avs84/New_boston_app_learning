@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TheNewBostonAvS</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Add">Add one</string>
+    <string name="Sub">Subtract one</string>
+    <string name="Total">Your total is 0</string>
+
+</resources>
