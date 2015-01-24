@@ -85,11 +85,11 @@ public class Tabs extends Activity implements View.OnClickListener {
                    if (start != 0) {
                        results = stop - start;
                        int millis = (int) results % 100;
-                       int second = ((int) results/1000) % 60;
-                       int minutes = ((int) results / 1000) / 60;
+                       int seconds = (int) results / 1000 % 60;
+                       int minutes =  (int) results / 1000 / 60;
 
 
-                       showResults.setText(String.format("%d:%02d,%02d:%02d",minutes,second,millis ));
+                       showResults.setText(String.format("%d:%02d,%02d",minutes,seconds,millis ));
                    }
                    break;
            }
