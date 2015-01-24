@@ -1313,7 +1313,7 @@ containing a value of this type.
         public static final int plusselected=0x7f02003a;
     }
     public static final class id {
-        public static final int aboutUs=0x7f0a0063;
+        public static final int aboutUs=0x7f0a0074;
         public static final int action_bar=0x7f0a0031;
         public static final int action_bar_activity_content=0x7f0a0015;
         public static final int action_bar_container=0x7f0a0030;
@@ -1327,21 +1327,26 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f0a002e;
         public static final int action_mode_bar_stub=0x7f0a002d;
         public static final int action_mode_close_button=0x7f0a0020;
-        public static final int action_settings=0x7f0a0066;
+        public static final int action_settings=0x7f0a0077;
         public static final int activity_chooser_view_content=0x7f0a0021;
         public static final int always=0x7f0a000f;
         public static final int analogClock1=0x7f0a0050;
         public static final int bAdd=0x7f0a0041;
-        public static final int bResults=0x7f0a0060;
+        public static final int bAddTab=0x7f0a006f;
+        public static final int bResults=0x7f0a0071;
         public static final int bReturn=0x7f0a005d;
         public static final int bSA=0x7f0a0052;
         public static final int bSAFR=0x7f0a0053;
         public static final int bSentEmail=0x7f0a004f;
         public static final int bSetWall=0x7f0a0057;
+        public static final int bStartWatch=0x7f0a0069;
+        public static final int bStopWatch=0x7f0a006a;
         public static final int bSub=0x7f0a0042;
         public static final int beginning=0x7f0a000a;
+        public static final int cbSlidable=0x7f0a0066;
         public static final int checkbox=0x7f0a0029;
         public static final int collapseActionView=0x7f0a0011;
+        public static final int content=0x7f0a0063;
         public static final int decor_content_parent=0x7f0a002f;
         public static final int default_activity_button=0x7f0a0024;
         public static final int dialog=0x7f0a0012;
@@ -1350,16 +1355,21 @@ containing a value of this type.
         public static final int edit_query=0x7f0a0033;
         public static final int end=0x7f0a000c;
         public static final int etAction=0x7f0a004c;
-        public static final int etCommands=0x7f0a005f;
+        public static final int etCommands=0x7f0a0070;
         public static final int etEmails=0x7f0a0044;
         public static final int etIntro=0x7f0a0046;
         public static final int etName=0x7f0a0048;
         public static final int etOutro=0x7f0a004e;
         public static final int etSend=0x7f0a0051;
         public static final int etThings=0x7f0a004a;
-        public static final int exit=0x7f0a0065;
+        public static final int exit=0x7f0a0076;
         public static final int expand_activities_button=0x7f0a0022;
         public static final int expanded_menu=0x7f0a0028;
+        public static final int handle=0x7f0a0064;
+        public static final int handle1=0x7f0a005f;
+        public static final int handle2=0x7f0a0060;
+        public static final int handle3=0x7f0a0061;
+        public static final int handle4=0x7f0a0062;
         public static final int home=0x7f0a0019;
         public static final int homeAsUp=0x7f0a0006;
         public static final int ibTakePic=0x7f0a0056;
@@ -1373,7 +1383,7 @@ containing a value of this type.
         public static final int never=0x7f0a000d;
         public static final int none=0x7f0a0003;
         public static final int normal=0x7f0a0000;
-        public static final int preferences=0x7f0a0064;
+        public static final int preferences=0x7f0a0075;
         public static final int progress_circular=0x7f0a001a;
         public static final int progress_horizontal=0x7f0a001b;
         public static final int rBoth=0x7f0a005c;
@@ -1395,10 +1405,16 @@ containing a value of this type.
         public static final int showCustom=0x7f0a0008;
         public static final int showHome=0x7f0a0005;
         public static final int showTitle=0x7f0a0007;
+        public static final int slidingD=0x7f0a0065;
         public static final int split_action_bar=0x7f0a001c;
         public static final int submit_area=0x7f0a003c;
+        public static final int tab1=0x7f0a0068;
+        public static final int tab2=0x7f0a006c;
+        public static final int tab3=0x7f0a006e;
+        public static final int tabHost=0x7f0a0067;
         public static final int tabMode=0x7f0a0002;
-        public static final int tbPassword=0x7f0a0061;
+        public static final int tbPassword=0x7f0a0072;
+        public static final int textView2=0x7f0a006d;
         public static final int title=0x7f0a0027;
         public static final int tvAbout=0x7f0a003f;
         public static final int tvAction=0x7f0a004b;
@@ -1409,7 +1425,8 @@ containing a value of this type.
         public static final int tvName=0x7f0a0047;
         public static final int tvOutro=0x7f0a004d;
         public static final int tvQuestion=0x7f0a0058;
-        public static final int tvResults=0x7f0a0062;
+        public static final int tvResults=0x7f0a0073;
+        public static final int tvShowResults=0x7f0a006b;
         public static final int tvTest=0x7f0a005e;
         public static final int tvThings=0x7f0a0049;
         public static final int up=0x7f0a001d;
@@ -1450,9 +1467,11 @@ containing a value of this type.
         public static final int get=0x7f03001a;
         public static final int photo=0x7f03001b;
         public static final int send=0x7f03001c;
-        public static final int splash=0x7f03001d;
-        public static final int support_simple_spinner_dropdown_item=0x7f03001e;
-        public static final int text=0x7f03001f;
+        public static final int sliding=0x7f03001d;
+        public static final int splash=0x7f03001e;
+        public static final int support_simple_spinner_dropdown_item=0x7f03001f;
+        public static final int tabs=0x7f030020;
+        public static final int text=0x7f030021;
     }
     public static final class menu {
         public static final int cool_menu=0x7f0f0000;
