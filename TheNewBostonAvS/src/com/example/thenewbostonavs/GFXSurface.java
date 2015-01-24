@@ -86,7 +86,7 @@ public class GFXSurface extends Activity implements View.OnTouchListener {
             case MotionEvent.ACTION_DOWN:
                 sX = event.getX();
                 sY = event.getY();
-                dX = dY = aniX = aniY = scaledX = scaledY fX =fY = 0;
+                dX = dY = aniX = aniY = scaledX = scaledY = fX =fY = 0;
 
                 break;
             case MotionEvent.ACTION_UP:
