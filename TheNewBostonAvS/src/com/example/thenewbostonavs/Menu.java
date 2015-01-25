@@ -14,10 +14,12 @@ import android.widget.ListView;
 /**
  * Created by AvanSchuijlenborgh on 24-11-2014.
  */
+
 public class Menu extends ListActivity {
 
     String classes[] = {"MainActivity", "TextPlay", "Email", "Camera", "Data", "GFX", "GFXSurface",
-                        "SoundStuff", "Slider", "Tabs", "SimpleBrowser", "Flipper", "SharedPrefs"};
+                        "SoundStuff", "Slider", "Tabs", "SimpleBrowser", "Flipper", "SharedPrefs",
+                        "InternalData", "ExternalData"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,7 +30,7 @@ public class Menu extends ListActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         //end fullscreen
 
-        setListAdapter(new ArrayAdapter<String>(Menu.this, android.R.layout.simple_list_item_1, classes));
+        setListAdapter(new ArrayAdapter<>(Menu.this, android.R.layout.simple_list_item_1, classes));
 
 
     }

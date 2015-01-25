@@ -1480,17 +1480,18 @@ containing a value of this type.
         public static final int about=0x7f030017;
         public static final int activity_main=0x7f030018;
         public static final int email=0x7f030019;
-        public static final int flipper=0x7f03001a;
-        public static final int get=0x7f03001b;
-        public static final int photo=0x7f03001c;
-        public static final int send=0x7f03001d;
-        public static final int sharedpreferences=0x7f03001e;
-        public static final int simplebrowser=0x7f03001f;
-        public static final int sliding=0x7f030020;
-        public static final int splash=0x7f030021;
-        public static final int support_simple_spinner_dropdown_item=0x7f030022;
-        public static final int tabs=0x7f030023;
-        public static final int text=0x7f030024;
+        public static final int externaldata=0x7f03001a;
+        public static final int flipper=0x7f03001b;
+        public static final int get=0x7f03001c;
+        public static final int photo=0x7f03001d;
+        public static final int send=0x7f03001e;
+        public static final int sharedpreferences=0x7f03001f;
+        public static final int simplebrowser=0x7f030020;
+        public static final int sliding=0x7f030021;
+        public static final int splash=0x7f030022;
+        public static final int support_simple_spinner_dropdown_item=0x7f030023;
+        public static final int tabs=0x7f030024;
+        public static final int text=0x7f030025;
     }
     public static final class menu {
         public static final int cool_menu=0x7f0f0000;
