@@ -1498,8 +1498,7 @@ containing a value of this type.
         public static final int main=0x7f0f0001;
     }
     public static final class raw {
-        public static final int explosion=0x7f060000;
-        public static final int leanback=0x7f060001;
+        public static final int leanback=0x7f060000;
     }
     public static final class string {
         public static final int Add=0x7f0d0000;
