@@ -40,6 +40,16 @@ public class SQLiteExample extends Activity implements View.OnClickListener {
         switch (v.getId()){
             case R.id.bSQLUpdate:
 
+                String name = sqlName.getText().toString();
+                String hotness = sqlHotness.getText().toString();
+
+                HotOrNot entry = new HotOrNot(SQLiteExample.this);
+                entry.open();
+
+                entry.createEntry(name, hotness);
+
+                entry.close();
+
                 break;
             case R.id.bSQLVOpenView:
 

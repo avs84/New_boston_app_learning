@@ -130,6 +130,11 @@
             android:name=".SQLiteExample"
             android:label="@string/app_name" >
         </activity>
+        <activity
+            android:name=".SQLView"
+            android:label="@string/app_name" >
+        </activity>
+
     </application>
 
 </manifest>
