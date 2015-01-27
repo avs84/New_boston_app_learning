@@ -6,41 +6,35 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Can Write"
-        android:id="@+id/tvCanWrite" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Can Read"
-        android:id="@+id/tvCanRead" />
-
-    <Spinner
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/spinner" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Save as..."
-        android:id="@+id/tvSaveAs" />
+        android:text="Name"
+        android:id="@+id/textView" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/etSaveAs" />
+        android:id="@+id/etSQLNAme" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hotness scale 1 to 10"
+        android:id="@+id/textView3" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etSQLHotness" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Confirm"
-        android:id="@+id/bConfirmSave" />
+        android:text="Update SQlite Datebase"
+        android:id="@+id/bSQLUpdate" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Save"
-        android:id="@+id/bSaveFile"
-        android:visibility="invisible"/>
+        android:text="View"
+        android:id="@+id/bSQLVOpenView" />
+
 </LinearLayout>
