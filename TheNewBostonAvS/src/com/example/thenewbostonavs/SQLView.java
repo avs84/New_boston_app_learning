@@ -25,6 +25,8 @@ public class SQLView extends Activity {
             String data = info.getData();
             info.close();
 
+            tv.setText(data);
+
         } catch (SQLException e) {
 
 

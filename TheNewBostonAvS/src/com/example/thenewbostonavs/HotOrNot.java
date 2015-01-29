@@ -86,7 +86,7 @@ public class HotOrNot {
         int iHotness = c.getColumnIndex(KEY_HOTNESS);
 
         for (c.moveToFirst(); !c.isAfterLast();c.moveToNext()){
-            result = result + c.getString(iRow) + " " + c.getString(iName) + " " + c.getString(iHotness) + "/n";
+            result = result + c.getString(iRow) + " " + c.getString(iName) + " " + c.getString(iHotness) + "\n";
 
         }
 
