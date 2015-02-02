@@ -36,7 +36,7 @@ public class Accelerate extends Activity implements SensorEventListener {
     private void initialize() {
         ourSurfaceView = new MyBringBackSurface(this);
         ourSurfaceView.resume();
-        setContentView(new MyBringBackSurface(this));
+        setContentView(ourSurfaceView);
 
         sm = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
 
